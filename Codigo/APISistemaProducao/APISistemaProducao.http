@@ -1,0 +1,6 @@
+@APISistemaProducao_HostAddress = http://localhost:5264
+
+GET {{APISistemaProducao_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
