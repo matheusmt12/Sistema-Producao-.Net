@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\APISistemaProducao\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C6708-8962-4F47-A385-FD4955214D7D}|APISistemaProducao.csproj|c:\\users\\mathe\\onedrive\\\u00E1rea de trabalho\\sistema-producao-.net\\codigo\\apisistemaproducao\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C6708-8962-4F47-A385-FD4955214D7D}|APISistemaProducao.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2982EB-3562-40E3-9121-EBDE940EAE61}|..\\Service\\Service.csproj|c:\\users\\mathe\\onedrive\\\u00E1rea de trabalho\\sistema-producao-.net\\codigo\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C6708-8962-4F47-A385-FD4955214D7D}|APISistemaProducao.csproj|c:\\users\\mathe\\onedrive\\\u00E1rea de trabalho\\sistema-producao-.net\\codigo\\apisistemaproducao\\mappers\\produtoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C6708-8962-4F47-A385-FD4955214D7D}|APISistemaProducao.csproj|solutionrelative:mappers\\produtoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\Service\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\Service\\ProdutoService.cs",
+              "RelativeToolTip": "..\\Service\\ProdutoService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T18:43:29.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\APISistemaProducao\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\APISistemaProducao\\Controllers\\ProdutoController.cs*",
+              "RelativeToolTip": "Controllers\\ProdutoController.cs*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwDoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T18:41:34.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\APISistemaProducao\\Mappers\\ProdutoProfile.cs",
+              "RelativeDocumentMoniker": "Mappers\\ProdutoProfile.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\Sistema-Producao-.Net\\Codigo\\APISistemaProducao\\Mappers\\ProdutoProfile.cs",
+              "RelativeToolTip": "Mappers\\ProdutoProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T18:40:03.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

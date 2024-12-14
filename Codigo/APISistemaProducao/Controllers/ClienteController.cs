@@ -25,16 +25,23 @@ namespace APISistemaProducao.Controllers
 
         // GET: api/<ClienteController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            
+            var clientes = await _clienteService.GetAll();
+            var  model = _mapper.Map<List<ClienteModel>>(clientes);
+
+            return Ok(model);
         }
 
         // GET api/<ClienteController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public  async Task<ActionResult> Get(int id)
         {
-            return "value";
+            var cliente = await _clienteService.Get(id);
+            var model = _mapper.Map<ClienteModel>(cliente);
+
+            return Ok(model);
         }
 
         // POST api/<ClienteController>
@@ -42,15 +49,19 @@ namespace APISistemaProducao.Controllers
         public async Task<ActionResult> Post([FromBody] ClienteModel clienteModel)
         {
             Cliente cliente = _mapper.Map<Cliente>(clienteModel);
-
             await _clienteService.Create(cliente);
             return Ok(cliente);
         }
 
         // PUT api/<ClienteController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult> Put (int id, [FromBody] ClienteModel clienteModel)
         {
+            var cliente = _mapper.Map<Cliente>(clienteModel);
+
+            cliente = await _clienteService.Edit(cliente);
+
+            return Ok(cliente);
         }
 
         // DELETE api/<ClienteController>/5

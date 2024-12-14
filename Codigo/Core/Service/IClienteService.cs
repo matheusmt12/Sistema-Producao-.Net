@@ -9,5 +9,8 @@ namespace Core.Service
     public interface IClienteService
     {
         Task<int> Create(Cliente cliente);
+        Task<IEnumerable<Cliente>> GetAll();
+        Task<Cliente> Get(int idCliente);
+        Task<Cliente> Edit(Cliente cliente);
     }
 }

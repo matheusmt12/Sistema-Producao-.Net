@@ -29,6 +29,7 @@ namespace APISistemaProducao
 
             // Add transient
             builder.Services.AddTransient<IClienteService, ClienteService>();
+            builder.Services.AddTransient<IProdutoService, ProdutoService>();
 
             var app = builder.Build();
 

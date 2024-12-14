@@ -2,7 +2,7 @@
 {
     public class ClienteModel
     {
-        public int Id { get; set; }
+        public int IdCliente { get; set; }
         public string Rua { get; set; } = null!;
 
         public string Cidade { get; set; } = null!;
